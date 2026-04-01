@@ -1,16 +1,15 @@
-# quacksyntax README
+# QuackSyntax README
 
 QuackSyntax offers syntax highlighting for SQL. It is tailored to DuckDB's SQL dialect.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+VS Code's internal syntax highlighting of SQL has a few shortcomings that this extension should fix. Highlighting includes DuckDB-specific features like `SELECT * EXCLUDE(x)`, `PRAGMA` and more.
 
-For example if there is an image subfolder under your extension project workspace:
+|   Internal syntax highlighting    |           QuackSyntax           |
+| :-------------------------------: | :-----------------------------: |
+| ![before](quacksyntax_before.png) | ![after](quacksyntax_after.png) |
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
@@ -18,14 +17,12 @@ None.
 
 ## Extension Settings
 
-This extension contributes the following settings:
-
-* `myExtension-todo.enable`: Enable/disable this extension.
+This extension contributes no settings.
 
 ## Known Issues
 
-Please report issues on GitHub: todo
+Please report issues on GitHub: https://github.com/OrangieLou/QuackSyntax/issues
 
 ## Release Notes
 
-Initial release coming soon.
+April 1, 2026: initial release
