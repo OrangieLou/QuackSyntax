@@ -5,6 +5,13 @@
   "version": "0.0.1",
   "publisher": "orangielou",
   "icon": "quacksyntax.png",
+  "bugs": {
+    "url": "https://github.com/OrangieLou/QuackSyntax/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OrangieLou/QuackSyntax.git"
+  },
   "engines": {
     "vscode": "^1.110.0"
   },
