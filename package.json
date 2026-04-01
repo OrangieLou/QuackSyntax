@@ -1,0 +1,36 @@
+{
+  "name": "quacksyntax",
+  "displayName": "QuackSyntax",
+  "description": "Syntax Highlighting for DuckDB SQL",
+  "version": "0.0.1",
+  "publisher": "orangielou",
+  "icon": "quacksyntax.png",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "sql",
+        "aliases": [
+          "SQL (DuckDB)",
+          "sql"
+        ],
+        "extensions": [
+          ".sql .ddl .dml"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "sql",
+        "scopeName": "source.sql.duckdb",
+        "path": "./syntaxes/sql.tmLanguage"
+      }
+    ]
+  }
+}
